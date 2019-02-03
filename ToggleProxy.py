@@ -95,7 +95,7 @@ def deactivate_proxy(sysTrayIcon):
 def bye(sysTrayIcon):
     pass
 
-menu_options = (('Open Proxy Settings', "hello.ico", open_proxy_settings),
+menu_options = (('Open Proxy Settings', None, open_proxy_settings),
                 ('Activate Proxy', None, activate_proxy),
                 ('Deactivate Proxy', None, deactivate_proxy),
                 ('About', None, about),
